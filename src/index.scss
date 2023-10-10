@@ -141,10 +141,10 @@ input {
 }
 
 .contact {
-  .contact-main{
+  .contact-main {
     background-color: #004449;
     height: 400px;
-    .contact-text{
+    .contact-text {
       position: relative;
     }
   }
@@ -229,9 +229,39 @@ input {
     }
   }
 }
-
-button {
+.link-btn {
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff !important;
+  &:before {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-color: #ffffff !important;
+  }
+  .btn-cmp__text {
+    position: relative;
+    bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    &:before {
+      content: url(./assets/images/arrow.svg) !important;
+      position: relative;
+      right: 6px;
+      top: 7px;
+      @media (min-width: 767px) {
+        right: 20px;
+      }
+    }
+  }
+}
+
+.link-btn,
+.btn-send {
+  position: absolute;
+  @media (max-width: 767px) {
+    width: 50%;
+  }
   &:before {
     content: "";
     left: 0;

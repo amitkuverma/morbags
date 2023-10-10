@@ -110,7 +110,7 @@ export const Contact = () => {
                                     <p>{errorMessage}</p>
                                 </div>
                                 <div className="d-flex justify-content-end">
-                                    <button type="submit" className="px-5 py-0 mt-3 btn-cmp btn-send border-0 bg-transparent text-uppercase"><span class="btn-cmp__text">Send</span></button>
+                                    <button type="submit" className="px-5 py-0 mt-3 btn-cmp btn-send border-0 bg-transparent text-uppercase"><span className="btn-cmp__text">Send</span></button>
                                 </div>
                             </form>
                         </div>

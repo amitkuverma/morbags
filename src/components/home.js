@@ -17,19 +17,32 @@ export const Home = () => {
     <Layout active={"home"}>
       <div className='hero'>
         <Carousel showThumbs={false} className='carousel-cust'>
-          <div>
-            <img src={First_slide} />
-            <div>Total Enterprise Reinvention</div>
-            <p className="legend">Total Enterprise Reinvention</p>
-            <button className='btn'>Read More</button>
+          <div className='main'>
+            <img src={First_slide} />            
+            <div className='overlay'></div>
+            <div className='main-text'>
+              <div className='fnt-md-36 fw-bold text-white'>ELECTRONIC HEALTH RECORDS & TELEMED</div>
+              <p className='text-white'>Taking Care of Patients</p>
+              <Link to={"/service"} className='fnt-fly btn_cmp mt-2 mt-md-3 mt-md-4 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
+            </div>
           </div>
-          <div>
-            <img src={Second_slide} />
-            <p className="legend">Legend 2</p>
+          <div className='main'>
+            <img src={Second_slide} />            
+            <div className='overlay'></div>
+            <div className='main-text'>
+              <div className='fnt-md-36 fw-bold text-white'>PAYER IT & BUSINESS OPERATIONS</div>
+              <p className='text-white'>Maximize Your Bottom-Line</p>
+              <Link to={"/service"} className='fnt-fly btn_cmp mt-2 mt-md-3 mt-md-4 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
+            </div>
           </div>
-          <div>
-            <img src={Third_slide} />
-            <p className="legend">Legend 3</p>
+          <div className='main'>
+            <img src={Third_slide} />            
+            <div className='overlay'></div>
+            <div className='main-text'>
+              <div className='fnt-md-36 fw-bold text-white'>REVENUE CYCLE MANAGEMENT</div>
+              <p className='text-white'>Recover Every Dollar</p>
+              <Link to={"/service"} className='fnt-fly btn_cmp mt-2 mt-md-3 mt-md-4 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
+            </div>
           </div>
         </Carousel>
         {/* <section className='main-section'>
@@ -96,8 +109,8 @@ export const Home = () => {
           </div>
         </section> */}
 
-        {/* <section>
-          <div className="container">
+        <section>
+          <div className="container mt-4 mt-md-5">
             <div className="row">
               <div className="col-sm-12 pb-4">
                 <div className="">
@@ -142,7 +155,7 @@ export const Home = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
         {/* <session >
           <div className="service-portfolio">
             <div className='container py-4'>
