@@ -5,16 +5,33 @@ import '../assets/styles/conponents/home.scss'
 import Book from '../assets/images/strive-test.png';
 import Strive from '../assets/images/icon_med_book_white.png';
 import Doctor from '../assets/images/icon_doctor1.png';
-import Depositphotos_1 from '../assets/images/Depositphotos_23068096_xl-2015-scaled.jpg';
-import Depositphotos_2 from '../assets/images/Screen-Shot-2020-07-08-at-5.02.09-PM.png';
-import Depositphotos_3 from '../assets/images/Depositphotos_326087168_xl-2015-scaled.jpg';
+import First_slide from '../assets/images/Depositphotos_23068096_xl-2015-scaled.jpg';
+import Second_slide from '../assets/images/Screen-Shot-2020-07-08-at-5.02.09-PM.png';
+import Third_slide from '../assets/images/Depositphotos_326087168_xl-2015-scaled.jpg';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 
 export const Home = () => {
   return (
     <Layout active={"home"}>
-      <div className='hero vh-100'>
-        Home page
+      <div className='hero'>
+        <Carousel showThumbs={false} className='carousel-cust'>
+          <div>
+            <img src={First_slide} />
+            <div>Total Enterprise Reinvention</div>
+            <p className="legend">Total Enterprise Reinvention</p>
+            <button className='btn'>Read More</button>
+          </div>
+          <div>
+            <img src={Second_slide} />
+            <p className="legend">Legend 2</p>
+          </div>
+          <div>
+            <img src={Third_slide} />
+            <p className="legend">Legend 3</p>
+          </div>
+        </Carousel>
         {/* <section className='main-section'>
           <div className='main'>
             <div className='container'>

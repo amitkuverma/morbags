@@ -1,11 +1,14 @@
 .hero {
-  .main-section {
-    padding-bottom: 350px;
-    @media (min-width: 768px) {
-      padding-bottom: 45vh;
+  .carousel-cust {
+    .slider-wrapper {
+      max-height: 450px !important;
+      .slider {
+        max-height: 450px;
+      }
     }
-    @media (min-width: 992px) {
-      padding-bottom: 90vh;
+    .carousel-status,
+    .axis-vertica {
+      display: none;
     }
   }
   .main {

@@ -12,7 +12,7 @@ export const Footer = () => {
             <div className='col-12 col-lg-6 pb-4 pb-lg-0 text-center'>
               <Link to={"/"} className="navbar-brand pointer logo">
                 <img className='img-fluid' src={logo} alt='logo' />
-                <span className='fnt-24 fnt-md-36 fw-900 fnt-fly text-uppercase footer-text'>Mor<span className="txt-clrf9">bag</span>s</span>
+                <span className='fnt-24 fnt-md-36 fw-900 fnt-fly text-uppercase footer-text'>Mor<span className="txt-clr95">bag</span>s Private Limited</span>
               </Link>
             </div>
             <div className='col-12 col-lg-6'>
