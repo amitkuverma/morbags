@@ -17,21 +17,29 @@
 .linkedIn {
   &::after {
     content: url(../../images/icons/linkedIn.svg);
+    position: relative;
+    top: 3px;
   }
 }
 .facebook {
   &::after {
     content: url(../../images/icons/facebook.svg);
+    position: relative;
+    top: 3px;
   }
 }
 .instagram {
   &::after {
     content: url(../../images/icons/instagram.svg);
+    position: relative;
+    top: 3px;
   }
 }
 .whatsapp {
   &::after {
     content: url(../../images/icons/whatsApp.svg);
+    position: relative;
+    top: 3px;
   }
 }
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Layout } from "../layout/layout";
 import emailjs from 'emailjs-com';
-import Cart from '../assets/images/contact.png'
+import ContactImage from '../assets/images/Contact-ua.png'
 import { Link } from "react-router-dom";
 
 export const Contact = () => {
@@ -58,16 +58,17 @@ export const Contact = () => {
     return (
         <Layout active={"contact"}>
             <div className="contact">
-                <div className="contact-main p-5">
-                    <div className="container">
+                <div className="contact-main">
+                    <div className="overlay"></div>
+                    <img className="img-fluid" src={ContactImage} alt="contact-image" />
+                    <div className="main-text">
                         <div className="fnt-34 fnt-lg-65 fnt-md-54 fw-900 text-white">Contact Morbags</div>
                         <p className="text-white fnt-18 fnt-md-24">We appreciate your interest in Morbags.</p>
                     </div>
                 </div>
                 <div className="container">
-                    <div className="fnt-md-45 fnt-24 fw-bold">General Inquiries</div>
                     <div className="row">
-                        
+
                         <div className="col-12 col-md-6 bg-clref py-4 px-3 py-md-5 px-md-4 contect-form">
                             <h1 className="py-3 py-md-4 fw-900">For specific questions, get in touch below</h1>
                             <p>Thank you for your interest in Morebags's services. Please provide the following information about your business needs to help us serve you better. This information will enable us to route your request to the appropriate person. You should receive a response within one to two business days.</p>
@@ -100,7 +101,7 @@ export const Contact = () => {
 
                         <div className="col-12 col-md-6 pt-3 pt-md-4">
                             {/* <img className="img-fluid" src={Cart} alt="Cart" /> */}
-                            <div className="p-4">
+                            <div className="p-md-4">
                                 <h4 className="ps-3">LET'S START SOMETHING TOGETHER!</h4>
                                 <ul>
                                     <li>Please feel free to contact us if you have questions or would like to find out more information about our services:

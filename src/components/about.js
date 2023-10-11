@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Layout } from "../layout/layout";
-import AboutCmpImage from '../assets/images/about.png'
+import AboutCmpImage from '../assets/images/about-image.jpg'
 import AboutSmall from '../assets/images/ABOUT-1Small.png'
 
 export const About = () => {

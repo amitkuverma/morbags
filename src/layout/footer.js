@@ -1,6 +1,6 @@
 import React from 'react';
 import "../assets/styles/layout/footer.scss";
-import logo from "../assets/images/logo.png"
+import logo from "../assets/images/logor.png"
 import { Link } from 'react-router-dom';
 
 export const Footer = () => {
@@ -8,9 +8,9 @@ export const Footer = () => {
     <div className='footer'>
       <div className='bg-dark p-4'>
         <div className='col-12 col-lg-6 pb-5 pt-3 px-2'>
-          <Link to={"/"} className="navbar-brand pointer logo d-flex">
+          <Link to={"/"} className="navbar-brand pointer logo d-flex align-items-center">
             <img className='img-fluid' src={logo} alt='logo' width={60} />
-            <span className='fnt-24 fnt-md-36 fw-900 fnt-fly text-uppercase txt-clra7 footer-text ms-3'>Mor<span className="">bag</span>s Prv Ltd</span>
+            <span className='fnt-24 fnt-md-36 fw-900 fnt-fly text-uppercase txt-clra7 footer-text ms-2'>Mor<span className="">bag</span>s Prv Ltd</span>
           </Link>
         </div>
         <hr className="txt-clra7" />
