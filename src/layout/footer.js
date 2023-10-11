@@ -59,7 +59,7 @@ export const Footer = () => {
           </div>
         </div>
         <hr className="txt-clra7" />
-        <div class="row mx-0 justify-content-between">
+        <div class="row mx-0 justify-content-between pt-md-3">
           <div className='col-12 col-md-8 d-md-flex justify-content-between'>
             <Link class="txt-clra7 fnt-11 pe-4" routerLink=""> Privcy Sttement
             </Link>
@@ -78,7 +78,7 @@ export const Footer = () => {
           </div>
 
           <div class="col-12 col-md-4 text-md-end">
-            <p class="txt-clra7 fnt-11 fw-100 pt-4">
+            <p class="txt-clra7 fnt-11 fw-100 pt-4 pt-md-0">
               &#169; 2023 Morbags. All Rights Reserved.
             </p>
           </div>
