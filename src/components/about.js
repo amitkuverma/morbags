@@ -6,13 +6,12 @@ import AboutSmall from '../assets/images/ABOUT-1Small.png'
 export const About = () => {
     return (
         <Layout active={"about"}>
-            About
             {/* <div className="bg-clrf9">
                 <div className="container">
                     <h1 className="fnt-fly py-4 text-white fnt-36 fnt-md-40 fw-900 text-capitalize">COMPANY OVERVIEW</h1>
                 </div>
             </div> */}
-            {/* <div className="container">
+            <div className="container">
                 <h2 className="heading-title">
                     <span className="title-text pp-primary-title text-uppercase">We Help Clients Reduce Cost &amp; Maximize Technology Investments</span>
                 </h2>
@@ -67,7 +66,7 @@ export const About = () => {
                         <img className="img-fluid" src={AboutSmall} alt="AboutSmall" />
                     </div>
                 </div>
-            </div> */}
+            </div>
         </Layout>
     )
 }

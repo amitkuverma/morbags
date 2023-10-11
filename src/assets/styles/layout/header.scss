@@ -14,13 +14,13 @@
     width: 40px;
   }
   .active {
-    color: #349995 !important;
+    color: #000 !important;
     border-bottom: 4px solid;
   }
   .dropdown-active {
-    color: #349995;
+    color: #000;
     &:hover {
-      background-color: #349995;
+      background-color: #000;
       color: #ffffff;
     }
   }
@@ -56,7 +56,7 @@
             padding: 26px 20px 22px;
           }
           &:hover {
-            color: #349995 !important;
+            color: #000 !important;
             border-bottom: 4px solid;
           }
         }
@@ -108,12 +108,12 @@
         border: none;
         border-radius: inherit;
         @media (min-width: 767px) {
-          border-bottom: 4px solid #349995;
+          border-bottom: 4px solid #000;
           padding: 17px 0px;
         }
         .dropdown-item {
           &:hover {
-            background-color: #349995;
+            background-color: #000;
             color: #ffffff;
           }
         }
