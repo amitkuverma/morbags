@@ -1,7 +1,5 @@
 import * as React from "react";
 import { Layout } from "../layout/layout";
-import Provider from "../assets/images/Screen-Shot-2020-07-27-at-5.28.58-PM.png";
-import Payer from "../assets/images/AdobeStock_210533545.png";
 
 export const OurClients = () => {
     return (

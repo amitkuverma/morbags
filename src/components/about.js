@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Layout } from "../layout/layout";
-import AboutCmpImage from '../assets/images/about-image.jpg'
-import AboutSmall from '../assets/images/ABOUT-1Small.png'
+import AboutCmpImage from '../assets/images/Screen-Shot-2020-07-08-at-5.02.09-PM.png'
+import AboutSmall from '../assets/images/configuration-background.jpg'
 
 export const About = () => {
     return (

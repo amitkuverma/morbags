@@ -2,7 +2,6 @@ import * as React from "react";
 import { Layout } from "../layout/layout";
 import '../assets/styles/conponents/service.scss'
 import { Link } from "react-router-dom";
-import ServiceImage from '../assets/images/service-main.png'
 
 export const Services = () => {
     const [activeTab, setActiveTab] = React.useState("pills-Vendor");

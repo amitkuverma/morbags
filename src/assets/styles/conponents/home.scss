@@ -1,22 +1,51 @@
 .hero {
   .carousel-cust {
-    @media (min-width: 992px) {
-      .slider-wrapper {
-        max-height: 450px !important;
-        .slider {
-          max-height: 450px;
-        }
-      }
-    }
-
+    // @media (min-width: 992px) {
+    //   .slider-wrapper {
+    //     max-height: 450px !important;
+    //     .slider {
+    //       max-height: 450px;
+    //     }
+    //   }
+    // }
+    // .cover{
+    //   @media (min-width: 992px) {
+    //     object-fit: cover;
+    //     height: 449px;
+    //   }
+    // }
+    // .contain {
+    //   @media (min-width: 992px) {
+    //     object-fit: contain;
+    //     height: 449px;
+    //   }
+    // }
+  //   .image-container {
+  //     max-width: 100%; /* Ensures the container does not exceed the width of its parent */
+  //     height: auto; /* Allows the height to adjust proportionally with the width */
+  //     display: flex;
+  //     justify-content: center;
+  //     align-items: center;
+  // }
+  
+  .image-container img {
+      max-width: 100%; /* Ensures the image does not exceed the width of its container */
+      height: auto; /* Allows the height to adjust proportionally with the width */
+  }
     .carousel-status,
     .axis-vertica {
       display: none;
     }
     .main {
       position: relative;
-      @media (min-width: 992px) {
-        max-height: 450px;
+      max-height: 250px;
+      @media (min-width: 767px) {
+        max-height: 460px;
+      }
+      img{
+        @media (max-width:767px) {
+          height: 250px;
+        }
       }
       .main-text {
         position: absolute;
