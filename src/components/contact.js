@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { Layout } from "../layout/layout";
+import { Layout } from "../layout/layout"
 import emailjs from 'emailjs-com';
 import ContactImage from '../assets/images/Contact-ua.png'
+import '../assets/styles/conponents/contact_us.scss';
 import { Link } from "react-router-dom";
 
 export const Contact = () => {
@@ -60,16 +61,19 @@ export const Contact = () => {
             <div className="contact">
                 <div className="contact-main">
                     <div className="overlay"></div>
-                    <img className="img-fluid" src={ContactImage} alt="contact-image" />
+                    <div class="background-image-wrapper">
+                        <picture> <img class="lozad" src={ContactImage} alt="contact-image" data-loaded="true" /> </picture>
+                    </div>
+                    {/* <img className="img-fluid" src={ContactImage} alt="contact-image" /> */}
                     <div className="main-text">
                         <div className="fnt-34 fnt-lg-65 fnt-md-54 fw-900 text-white">Contact Morbags</div>
                         <p className="text-white fnt-18 fnt-md-24">We appreciate your interest in Morbags.</p>
                     </div>
                 </div>
-                <div className="container">
-                    <div className="row">
-
-                        <div className="col-12 col-md-6 bg-clref py-4 px-3 py-md-5 px-md-4 contect-form">
+                <div className="contact-section pb-4">
+                    <div className="container">
+                        <h1 className="text-center pt-4 pb-3">Ask Any Question</h1>
+                        <div className="py-4 px-3 py-md-5 px-md-5 contact-area">
                             <h1 className="py-3 py-md-4 fw-900">For specific questions, get in touch below</h1>
                             <p>Thank you for your interest in Morebags's services. Please provide the following information about your business needs to help us serve you better. This information will enable us to route your request to the appropriate person. You should receive a response within one to two business days.</p>
                             <p>All fields are required when completing this form.</p>
@@ -77,12 +81,12 @@ export const Contact = () => {
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputEmail1" className="form-label fw-bold">Your Name <span className="star">*</span></label>
                                     <input type="text" name="name" className="form-control fw-bold" placeholder="Recipient Name" />
-                                    <p>{errorName}</p>
+                                    <p className="star">{errorName}</p>
                                 </div>
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputEmail1" className="form-label fw-bold">Your Email <span className="star">*</span></label>
                                     <input type="email" name="email" className="form-control fw-bold" placeholder="Recipient Email" />
-                                    <p>{errorEmail}</p>
+                                    <p className="star">{errorEmail}</p>
                                 </div>
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputEmail1" className="form-label fw-bold">Subject</label>
@@ -91,36 +95,12 @@ export const Contact = () => {
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputEmail1" className="form-label fw-bold">Your Message</label>
                                     <textarea name="message" rows={8} className="form-control fw-bold" placeholder="Message" />
-                                    <p>{errorMessage}</p>
+                                    <p className="star">{errorMessage}</p>
                                 </div>
-                                <div className="d-flex justify-content-end pb-5">
+                                <div className="d-flex justify-content-center pb-5">
                                     <button type="submit" className="px-5 py-0 mt-3 btn-cmp btn-send border-0 bg-transparent text-uppercase"><span className="btn-cmp__text">Send</span></button>
                                 </div>
                             </form>
-                        </div>
-
-                        <div className="col-12 col-md-6 pt-3 pt-md-4">
-                            {/* <img className="img-fluid" src={Cart} alt="Cart" /> */}
-                            <div className="p-md-4">
-                                <h4 className="ps-3">LET'S START SOMETHING TOGETHER!</h4>
-                                <ul>
-                                    <li>Please feel free to contact us if you have questions or would like to find out more information about our services:
-                                        <ul>
-                                            <li>EHR Implementation &amp; Optimization</li>
-                                            <li>Payer IT &amp; Business Operations Support</li>
-                                            <li>Real-Time Location Services (RTLS)</li>
-                                            <li>Revenue Recovery Services</li>
-                                            <li>and <strong><Link to="/service">so much more!</Link></strong></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-
-                        <div className="col-12 py-4 px-lg-0 look">
-                            <h2>LOOKING FOR YOUR NEXT CAREER?</h2>
-                            <p>Morbags provides experts in area of operations and information technology management consulting services, specifically for the healthcare industry. Our firm delivers “Subject Matter Experts” when it comes to healthcare business needs. We are committed to helping Health Plans, Hospitals and Integrated Delivery Systems, reduce cost. Morbags hires only the very best; experienced in assisting healthcare organizations with improving the effectiveness of their operations and information technology infrastructures.</p>
                         </div>
                     </div>
                 </div>

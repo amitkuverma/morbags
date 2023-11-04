@@ -1,0 +1,55 @@
+.about_us {
+  .about-main {
+    position: relative;
+    background: linear-gradient(
+        0deg,
+        rgba(252, 244, 248, 0.3),
+        rgba(93, 92, 93, 0.3)
+      ),
+      url(../../images/configuration-background.jpg);
+    width: 100%;
+    height: 460px;
+  }
+  .about-main-text {
+    position: absolute;
+  }
+  @media (min-width: 767px) {
+    .container {
+      max-width: calc(84.33% - 150px) !important;
+    }
+  }
+  .populated-image3 {
+    background-image: url(../../images/about-us-banner.jpg);
+  }
+  .elementor-element-populated {
+    height: 280px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    @media (min-width: 767px) {
+      min-height: 250px;
+    }
+    @media (min-width: 991px) {
+      height: 100%;
+    }
+  }
+  .elementor-background-overlay {
+    background-color: #004449;
+    opacity: 0.65;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+  }
+  .elementor-image-box-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .elementor {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+}

@@ -1,72 +1,84 @@
 import * as React from "react";
 import { Layout } from "../layout/layout";
+import '../assets/styles/conponents/about_us.scss'
 import AboutCmpImage from '../assets/images/Screen-Shot-2020-07-08-at-5.02.09-PM.png'
-import AboutSmall from '../assets/images/configuration-background.jpg'
+import AboutRight from '../assets/images/adam-nowakowski.jpg'
+
 
 export const About = () => {
     return (
         <Layout active={"about"}>
-            {/* <div className="bg-clrf9">
-                <div className="container">
-                    <h1 className="fnt-fly py-4 text-white fnt-36 fnt-md-40 fw-900 text-capitalize">COMPANY OVERVIEW</h1>
-                </div>
-            </div> */}
-            <div className="container">
-                <h2 className="heading-title">
-                    <span className="title-text pp-primary-title text-uppercase">We Help Clients Reduce Cost &amp; Maximize Technology Investments</span>
-                </h2>
-                <div className="row">
-                    <div className="col-12 col-md-6">
-                        <img className="img-fluid" src={AboutCmpImage} alt="about" />
-                    </div>
-                    <div className="col-12 col-md-6">
-                        <div className="wpb_wrapper">
-                            <h3 className="text-uppercase">What We Do Best:</h3>
-                            <p className="heading-title">We help your organization reduce its cost of operations and maximize its investment in information technology. In short, our client references can attest to this success. This confidence and success is based on our talented team of veteran healthcare professionals that offer extensive experience and a proven track record in assisting payers and providers with such accomplishments. Our healthcare professionals offer unmatched operations and IT knowledge and are second to none in the industry.</p>
-                            <p><strong>In brief,&nbsp;<span className="cstm-text-blue">Morbags</span>&nbsp;is dedicated to helping healthcare organizations:</strong></p>
-                            <ul>
-                                <li>Reduce the cost of operations</li>
-                                <li>Maximize their investment in information technology</li>
-                                <li>Adopt industry best practices</li>
-                                <li>Increase revenues through financial recovery services</li>
-                                <li>Improve member services and patient care</li>
-                            </ul>
-                            <p>We at <span className="cstm-text-blue">HAC</span>&nbsp;understand your daily and long term challenges. More importantly, we know how to be of help.</p>
-
+            <div className="about_us">
+                <div className="about-main">
+                    <div className="about-main-text w-100">
+                        <div className="container">
+                            <div className="row">
+                                <h6 className="text-white pt-5">WHO WE ARE</h6>
+                                <hr />
+                                <div className="col-12">
+                                    <div className="pt-5">
+                                        <h3 className="text-white fnt-lg-65">Building on</h3>
+                                        <h3 className="text-white fnt-lg-65">belief</h3>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="include_wrapper">
-                        <h3 className="text-uppercase">Our Clients include:</h3>
-                        <ul className="ps-3">
-                            <li>Hospitals, IDN’s, HMO’s, PPO’s, TPA’s, Blue Cross and Blue Shield plans, software vendors, physician practices and global consulting firm business partners throughout the United States, and the Caribbean.</li>
-                        </ul>
-                        <p className="py-3 py-md-y"><span className="cstm-text-blue">Morbags's service offerings will allow your organization to focus on what you do best, that is, improving the delivery of quality patient care and member services.</span> Let us do what we do best, helping you reduce operating cost and maximize your investment in information technology.</p>
-                    </div>
-                    <div className="col-md-8 col-12">
+                </div>
+                <section>
+                    {/* 03 */}
+                    <div className="container">
+                        <div className="row py-4 pb-md-5">
+                            <div className="col-12 col-lg-6 d-md-none">
+                                <div className="elementor-widget-wrap elementor-element-populated populated-image3">
+                                    <div className="elementor-background-overlay"></div>
+                                    <div className="elementor-image-box-content text-center w-75">
+                                        <h1 className="text-white">About</h1>
+                                        {/* <p className="text-white">Improving the Accuracy and Timeliness of Payments</p> */}
+                                    </div>
+                                </div>
+                            </div>
 
-                        <div className="wpb_wrapper">
-                            <h3 className="text-uppercase">About Us</h3>
-                            <p>Our professional management consulting services focus exclusively on the healthcare industry dedicated to serving hospitals, health systems and payers.</p>
-                            <p>At Morbags, we understand your business, that is the business of healthcare.</p>
-                            <p>Unlike many other consulting firms, at Morbags, healthcare is our only line of business and our only focus. As a professional services organization, we are not trying to be “everything to everyone”. Therefore, the domain knowledge, industry best practices, and practical experience that we bring to client engagements is unmatched by the competition and results in effective solutions and success for our clients.</p>
-                            <p><strong>Our core competencies focus on helping your organization with:</strong></p>
-                            <p>Reducing the cost of operations<br />
-                                Core system implementation and integration<br />
-                                Improved financials / Increased revenue<br />
-                                Strategic consulting / Advisory services<br />
-                                System evaluation &amp; selection<br />
-                                Process improvement / Increased productivity / Best practices<br />
-                                Medical wellness, &amp; care program management</p>
-                            <p><strong>Payer systems we support:</strong> FACETS™, AMISYS, QNXT™, MHS &amp; MHC, Health Solutions Plus, Diamond, Peradigm, HealthEdge, HealthTrio, EDS, RAMTechnologies</p>
-                            <p><strong>Hospital systems we work with:</strong> Epic, Cerner, McKesson, Siemen’s, Ambulatory</p>
-
+                            <div className=" col-12 col-lg-6 py-3">
+                                <h1 className="fnt-36 fnt-md-45 fnt-lg-60 fw-100">About US</h1>
+                                <hr />
+                                <div className="elementor-widget-container">
+                                    <p className="">We are in our structured growth. Morbags brings to our clients over 1 decades of IT and non-IT workforce solution experience.
+                                        We leverage our outsourcing expertise to deliver high-end consulting services for various engagements.
+                                        We are well known for our strategic processes and client partnering methodology. We specialize in recruiting talent for startups and established commercial organizations.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="col-12 col-lg-6 d-none d-lg-block">
+                                <div className="elementor-widget-wrap elementor-element-populated populated-image3">
+                                    <div className="elementor-background-overlay"></div>
+                                    {/* <div className="elementor-image-box-content text-center w-75">
+                                        <h1 className="elementor-image-box-title text-white">Web Design &amp; Development</h1>
+                                        <p className="elementor-image-box-description text-white">Improving the Accuracy and Timeliness of Payments</p>
+                                    </div> */}
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-12 d-none d-md-block">
-                        <img className="img-fluid" src={AboutSmall} alt="AboutSmall" />
+                </section>
+                {/* <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-md-6">
+                            <div className="pt-5">
+                                <h3 className="fnt-lg-32">Building greater futures through innovation and collective knowledge</h3>
+                                <p className="">We are in our structured growth. Morbags brings to our clients over 1 decades of IT and non-IT workforce solution experience. We leverage our outsourcing expertise to deliver high-end consulting services for various engagements. We are well known for our strategic processes and client partnering methodology. We specialize in recruiting talent for startups and established commercial organizations.</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="pt-5">
+                                <img className="img-fluid" src={AboutRight} alt="AboutRight" />
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </div> */}
+
             </div>
+
         </Layout>
     )
 }

@@ -143,50 +143,6 @@ input {
   border-radius: 0 !important;
 }
 
-.contact {
-  .contact-main {
-    position: relative;
-    .main-text {
-      position: absolute;
-      bottom: 0rem;
-      left: 1rem;
-      @media (min-width: 767px) {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        p {
-          text-align: center;
-        }
-      }
-      z-index: 10;
-    }
-    .overlay {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.6);
-    }
-  }
-  .contect-form {
-    position: relative;
-    @media (min-width: 767px) {
-      top: -150px;
-    }
-    box-shadow: inset 0 0.75em 1.25em -0.38em rgba(0, 0, 0, 0.15);
-    border-color: #202020;
-  }
-  @media (min-width: 767px) {
-    .look {
-      position: relative;
-      bottom: 75px;
-      margin: -48px 0;
-    }
-  }
-  .star {
-    color: #e02b27;
-  }
-}
-
 .btn-cmp {
   width: auto;
   height: auto;

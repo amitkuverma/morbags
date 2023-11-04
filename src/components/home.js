@@ -4,7 +4,7 @@
   import '../assets/styles/conponents/home.scss'
   import Sap from '../assets/images/sap.jpeg';
   import Scraping from '../assets/images/medical-to.jpg';
-  import Web_Development from '../assets/images/web-development.jpg';
+  import Web_Development from '../assets/images/website-design-company-in-yamuna-nagar-1200x480.jpg';
   import Digital_Marketing from '../assets/images/digital-marketing.jpg';
   import Training from '../assets/images/traning.jpg';
   import Medical from '../assets/images/Screen-Shot-2020-07-08-at-5.02.09-PM.png';
