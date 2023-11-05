@@ -8,8 +8,6 @@
   import Digital_Marketing from '../assets/images/digital-marketing.jpg';
   import Training from '../assets/images/traning.jpg';
   import Medical from '../assets/images/Screen-Shot-2020-07-08-at-5.02.09-PM.png';
-  import Market_video from '../assets/videos/market.mp4';
-  import Medical_video from '../assets/videos/medical.mp4';
   import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
   import { Carousel } from 'react-responsive-carousel';
 

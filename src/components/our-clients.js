@@ -1,13 +1,14 @@
 import * as React from "react";
 import { Layout } from "../layout/layout";
 import '../assets/styles/conponents/client.scss';
+import OurClientImg from "../assets/images/Clients_b.jpg";
 
 export const OurClients = () => {
     return (
         <Layout active={"clients"}>
             <section class="main-hero position-relative">
                 <div class="background-image-wrapper">
-                    <picture> <img class="lozad" src="https://www.thecastlegrp.com/wp-content/uploads/2022/11/Banner-Image-Castle-804.jpg" alt="" /> </picture>
+                    <picture> <img class="lozad" src={OurClientImg} alt="" /> </picture>
                 </div>
                 <div class="overlay-dark-sky"></div>
                 <div class="container position-relative">
