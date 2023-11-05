@@ -74,7 +74,7 @@ export const Contact = () => {
                 <div className="contact-section pb-4">
                     <div className="container">
                         <h1 className="text-center pt-4 pb-3 fw-bold text-uppercase">Ask Any Question</h1>
-                        <div className="py-4 px-3 py-md-5 px-md-5 contact-area">
+                        <div className="py-4 px-3 pb-md-5 px-md-5 contact-area">
                             <h1 className="py-3 py-md-4 fw-900">For specific questions, get in touch below</h1>
                             <p>Thank you for your interest in Morebags's services. Please provide the following information about your business needs to help us serve you better. This information will enable us to route your request to the appropriate person. You should receive a response within one to two business days.</p>
                             <p>All fields are required when completing this form.</p>
