@@ -5,22 +5,19 @@ import '../assets/styles/conponents/client.scss';
 export const OurClients = () => {
     return (
         <Layout active={"clients"}>
-            <section id="BLOCK__1" class="BLOCK__innerpage-hero position-relative BLOCK__medium-large__enforce-min-height BLOCK__medium-large THEME__bg-secondary ">
-                <div class="MODULE__background-image-wrapper">
-                    <picture> <img class="lozad" src="https://www.thecastlegrp.com/wp-content/uploads/2022/11/Banner-Image-Castle-804.jpg" data-src="https://www.thecastlegrp.com/wp-content/uploads/2022/11/Banner-Image-Castle-804.jpg" alt="Shadows of the trees on building wall in the Charlestown Navy Yard" data-loaded="true" /> </picture>
+            <section class="main-hero position-relative">
+                <div class="background-image-wrapper">
+                    <picture> <img class="lozad" src="https://www.thecastlegrp.com/wp-content/uploads/2022/11/Banner-Image-Castle-804.jpg" alt="" /> </picture>
                 </div>
-                <div class="MODULE__tint MODULE__tint-dark-sky"></div>
-                <div class="MODULE__tint MODULE__tint-dark-sky">
-                </div><div class="container position-relative">
-                    <div class="BLOCK__innerpage-hero__content-wrapper THEME__text-inverted THEME__mw-Full mx-auto text-center">
-                        <div class="BLOCK__innerpage-hero__heading-wrapper ">
-                            <h1 class="BLOCK__innerpage-hero__heading h1 THEME__smaller-font-size-sm mb-0">Our Clients</h1>
-                        </div>
+                <div class="overlay-dark-sky"></div>
+                <div class="container position-relative">
+                    <div class="mx-auto text-center">
+                        <h1 class="text-white mb-0">Our Clients</h1>
                     </div>
                 </div>
             </section>
             <div className="container">
-                <div className="">
+                <div className="pt-5 pb-4">
                     <p>A true partnership is a two-way street — ideas and information flow openly and regularly,
                         based on a foundation of mutual trust and respect for one another’s expertise — and our clients embrace this philosophy.
                     </p>
@@ -29,15 +26,8 @@ export const OurClients = () => {
                     <p>Our client list speaks for itself. Since our earliest days, we’ve represented everything from start-ups to
                         Fortune 500 companies with that same partnership approach and dedication at the core of every engagement.
                         Every day, since 1996, we’ve been devoting our hearts and minds to our clients, achieving great successes
-                        and building lasting relationships.&nbsp;
-                        <a rel="noopener">Meet The Castle Group team</a>
-                        &nbsp;or go to our&nbsp;<a href="/news/" target="_blank" rel="noopener">Castle News</a>&nbsp;to learn more.
+                        and building lasting relationships.
                     </p>
-                    <div className="MODULE__button-wrapper pt-4 text-center">
-                        <a target="_self" href="/client-media-coverage/">
-                            <button type="button" className="THEME__button THEME__button-medium THEME__button-primary">Client Media Coverage</button>
-                        </a>
-                    </div>
                 </div>
                 <hr />
 
@@ -45,9 +35,9 @@ export const OurClients = () => {
             <section>
                 <div className="container">
                     <div className="text-center">
-                        <h2 className="">Here is a sample of our current and past clients</h2>
+                        <h2 className="text-uppercase fw-bold">Here is a sample of our current and past clients</h2>
                     </div>
-                    <div className="mt-4 pt-3">
+                    <div className="mt-4 py-3">
                         <div className="row">
                             <div className="partners">
                                 <div className="partners-card position-relative">

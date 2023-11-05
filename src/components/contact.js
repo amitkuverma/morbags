@@ -59,17 +59,18 @@ export const Contact = () => {
     return (
         <Layout active={"contact"}>
             <div className="contact">
-                <div className="contact-main">
-                    <div className="overlay"></div>
+                <section class="main-hero position-relative">
                     <div class="background-image-wrapper">
-                        <picture> <img class="lozad" src={ContactImage} alt="contact-image" data-loaded="true" /> </picture>
+                        <picture> <img class="lozad" src={ContactImage} alt="" /> </picture>
                     </div>
-                    {/* <img className="img-fluid" src={ContactImage} alt="contact-image" /> */}
-                    <div className="main-text">
-                        <div className="fnt-34 fnt-lg-65 fnt-md-54 fw-900 text-white">Contact Morbags</div>
-                        <p className="text-white fnt-18 fnt-md-24">We appreciate your interest in Morbags.</p>
+                    <div class="overlay-dark-sky"></div>
+                    <div class="container position-relative">
+                        <div class="mx-auto text-center">
+                            <h1 class="text-white mb-0">Contact Morbags</h1>
+                            <p className="text-white fnt-18 fnt-md-24">We appreciate your interest in Morbags.</p>
+                        </div>
                     </div>
-                </div>
+                </section>
                 <div className="contact-section pb-4">
                     <div className="container">
                         <h1 className="text-center pt-4 pb-3">Ask Any Question</h1>
