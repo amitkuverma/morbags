@@ -22,8 +22,8 @@
 
               <div className='overlay'></div>
               <div className='main-text'>
-                <div className='fnt-md-36 fw-bold text-white text-uppercase'>SAP (Think SAP, Think Morbags)</div>
-                <Link to={"/service"} className='fnt-fly btn_cmp mt-2 mt-md-3 mt-md-4 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
+                <div className='fnt-20 fnt-md-36 fw-bold text-white text-uppercase'>SAP (Think SAP, Think Morbags)</div>
+                <Link to={"/service"} className='fnt-fly btn_cmp mt-4 mt-md-5 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
               </div>
             </div>
             <div className='main'>
@@ -32,8 +32,8 @@
               </div>
               <div className='overlay'></div>
               <div className='main-text'>
-                <div className='fnt-md-36 fw-bold text-white text-uppercase'>Data Scraping & Web Scraping</div>
-                <Link to={"/service"} className='fnt-fly btn_cmp mt-2 mt-md-3 mt-md-4 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
+                <div className='fnt-20 fnt-md-36 fw-bold text-white text-uppercase'>Data Scraping & Web Scraping</div>
+                <Link to={"/service"} className='fnt-fly btn_cmp mt-4 mt-md-5 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
               </div>
             </div>
             <div className='main'>
@@ -42,8 +42,8 @@
               </div>
               <div className='overlay'></div>
               <div className='main-text'>
-                <div className='fnt-md-36 fw-bold text-white text-uppercase'>Web Design & Development</div>
-                <Link to={"/service"} className='fnt-fly btn_cmp mt-2 mt-md-3 mt-md-4 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
+                <div className='fnt-20 fnt-md-36 fw-bold text-white text-uppercase'>Web Design & Development</div>
+                <Link to={"/service"} className='fnt-fly btn_cmp mt-4 mt-md-5 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
               </div>
             </div>
             <div className='main'>
@@ -52,9 +52,8 @@
               </div>
               <div className='overlay'></div>
               <div className='main-text'>
-                <div className='fnt-md-36 fw-bold text-white text-uppercase'>Digital Marketing</div>
-                <p className='text-white'>Maximize Your Bottom-Line</p>
-                <Link to={"/service"} className='fnt-fly btn_cmp mt-2 mt-md-3 mt-md-4 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
+                <div className='fnt-20 fnt-md-36 fw-bold text-white text-uppercase'>Digital Marketing</div>
+                <Link to={"/service"} className='fnt-fly btn_cmp mt-4 mt-md-5 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
               </div>
             </div>
             <div className='main'>
@@ -64,18 +63,16 @@
 
               <div className='overlay'></div>
               <div className='main-text'>
-                <div className='fnt-md-36 fw-bold text-white text-uppercase'>Training</div>
-                <p className='text-white'>Maximize Your Bottom-Line</p>
-                <Link to={"/service"} className='fnt-fly btn_cmp mt-2 mt-md-3 mt-md-4 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
+                <div className='fnt-20 fnt-md-36 fw-bold text-white text-uppercase'>Training</div>
+                <Link to={"/service"} className='fnt-fly btn_cmp mt-4 mt-md-5 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
               </div>
             </div>
             <div className='main'>              
               <img className='img-fluid' src={Medical} alt='Medical' />
               <div className='overlay'></div>
               <div className='main-text'>
-                <div className='fnt-md-36 fw-bold text-white text-uppercase'>Medical Tourism</div>
-                <p className='text-white'>Recover Every Dollar</p>
-                <Link to={"/service"} className='fnt-fly btn_cmp mt-2 mt-md-3 mt-md-4 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
+                <div className='fnt-20 fnt-md-36 fw-bold text-white text-uppercase'>Medical Tourism</div>
+                <Link to={"/service"} className='fnt-fly btn_cmp mt-4 mt-md-5 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
               </div>
             </div>
           </Carousel>
