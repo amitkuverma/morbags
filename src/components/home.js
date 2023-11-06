@@ -8,7 +8,7 @@
   import Digital_Marketing from '../assets/images/digital-marketing.jpg';
   import Training from '../assets/images/traning.jpg';
   import Medical from '../assets/images/Screen-Shot-2020-07-08-at-5.02.09-PM.png';
-  import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+  import "react-responsive-carousel/lib/styles/carousel.min.css";
   import { Carousel } from 'react-responsive-carousel';
 
 
@@ -23,7 +23,6 @@
               <div className='overlay'></div>
               <div className='main-text'>
                 <div className='fnt-md-36 fw-bold text-white text-uppercase'>SAP (Think SAP, Think Morbags)</div>
-                <p className='text-white'>Taking Care of Patients</p>
                 <Link to={"/service"} className='fnt-fly btn_cmp mt-2 mt-md-3 mt-md-4 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
               </div>
             </div>
@@ -34,7 +33,6 @@
               <div className='overlay'></div>
               <div className='main-text'>
                 <div className='fnt-md-36 fw-bold text-white text-uppercase'>Data Scraping & Web Scraping</div>
-                <p className='text-white'>Maximize Your Bottom-Line</p>
                 <Link to={"/service"} className='fnt-fly btn_cmp mt-2 mt-md-3 mt-md-4 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
               </div>
             </div>
@@ -45,13 +43,11 @@
               <div className='overlay'></div>
               <div className='main-text'>
                 <div className='fnt-md-36 fw-bold text-white text-uppercase'>Web Design & Development</div>
-                <p className='text-white'>Maximize Your Bottom-Line</p>
                 <Link to={"/service"} className='fnt-fly btn_cmp mt-2 mt-md-3 mt-md-4 px-md-5 text-decoration-none link-btn'><span className='btn-cmp__text'>Read More</span></Link>
               </div>
             </div>
             <div className='main'>
               <div class="image-container">
-                {/* <video autoPlay src={Medical_video} ></video> */}
                 <img className='img-fluid' src={Digital_Marketing} alt='Digital_Marketing' />
               </div>
               <div className='overlay'></div>
@@ -99,7 +95,6 @@
 
                 <div className=" col-12 col-lg-6 py-3">
                   <h1 className="fnt-36 fnt-md-45 fnt-lg-60 fw-100">01</h1>
-                  {/* <h2 className="fw-900 fnt-22 fnt-md-24 fnt-fly text-uppercase">SAP -- Think SAP , Think Morbags</h2> */}
                   <hr />
                   <div className="elementor-widget-container">
                     <p>SAP is a term used to refer to a new approach to implementing SAP systems, particularly the S/4HANA suite.</p>
@@ -144,13 +139,11 @@
                       <div className="elementor-background-overlay"></div>
                       <div className="elementor-image-box-content text-center w-75">
                         <h1 className="elementor-image-box-title text-white">Data Scraping &amp; Web Scraping</h1>
-                        {/* <p className="elementor-image-box-description text-white">Technology Enablement and Automation</p> */}
                       </div>
                     </div>
                   </div>
                   <div className="service_column col-12 col-lg-6">
                     <h1 className="text-white fnt-36 fnt-md-45 fnt-lg-60 fw-100">02</h1>
-                    {/* <h2 className="fw-900 fnt-22 fnt-md-24 fnt-fly text-uppercase text-white">Data Scraping and Web Scraping</h2> */}
                     <hr className="text-white" />
                     <div className="elementor-widget-container">
                       <h3 className='text-white'>Data scraping services</h3>
@@ -192,14 +185,12 @@
                     <div className="elementor-background-overlay"></div>
                     <div className="elementor-image-box-content text-center w-75">
                       <h1 className="text-white">Web Design &amp; Development</h1>
-                      {/* <p className="text-white">Improving the Accuracy and Timeliness of Payments</p> */}
                     </div>
                   </div>
                 </div>
 
                 <div className=" col-12 col-lg-6 py-3">
                   <h1 className="fnt-36 fnt-md-45 fnt-lg-60 fw-100">03</h1>
-                  {/* <h2>Web Design &amp; Development</h2> */}
                   <hr />
                   <div className="elementor-widget-container">
                     <p className="">We focus on The prime role of a web developer is to craft a well-structured website for a business.
@@ -225,7 +216,6 @@
                     <div className="elementor-background-overlay"></div>
                     <div className="elementor-image-box-content text-center w-75">
                       <h1 className="elementor-image-box-title text-white">Web Design &amp; Development</h1>
-                      {/* <p className="elementor-image-box-description text-white">Improving the Accuracy and Timeliness of Payments</p> */}
                     </div>
                   </div>
                 </div>
@@ -243,7 +233,6 @@
                       <div className="elementor-background-overlay"></div>
                       <div className="elementor-image-box-content text-center w-75">
                         <h1 className="elementor-image-box-title text-white">Digital Marketing</h1>
-                        {/* <p className="elementor-image-box-description text-white">Technology Enablement and Automation</p> */}
                       </div>
                     </div>
                   </div>
@@ -290,7 +279,6 @@
 
                 <div className=" col-12 col-lg-6 py-3">
                   <h1 className="fnt-36 fnt-md-45 fnt-lg-60 fw-100">05</h1>
-                  {/* <h2>Web Design &amp; Development</h2> */}
                   <hr />
                   <div className="elementor-widget-container">
                     <p className="">To enrich the knowledge & skill sets of young software engineers by providing value added training in the areas of Software Development & Testing.</p>
@@ -332,7 +320,6 @@
                     <h1 className="text-white fnt-36 fnt-md-45 fnt-lg-60 fw-100">06</h1>
                     <hr className="text-white" />
                     <div className="elementor-widget-container">
-                      {/* <h3 className='text-white'>Data scraping services</h3> */}
                       <p className="text-white"><b>1.</b> The global growth in the flow of patients and health professionals as well as medical technology,
                         capital funding and regulatory regimes across national borders has given rise to new patterns of
                         consumption and production of healthcare services over recent decades. A significant new element of a
